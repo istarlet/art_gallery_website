@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Font + Text Styles */
+
+.big-shoulders {
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.outfit {
+    font-family: 'Outfit', sans-serif;
+}
+
+.fs-96 {
+    font-size: 96px;
+    line-height: 88px;
+}
+
+.fs-70 {
+    font-size: 70px;
+    line-height: 70px;
+}
+
+.fs-60 {
+    font-size: 60px;
+    line-height: 50px;
+}
+
+.fs-36 {
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.fs-22 {
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.fs-18 {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
