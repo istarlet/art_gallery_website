@@ -12,6 +12,19 @@ img {
     max-width: 100%;
 }
 
+.container {
+    width: 92%;
+    margin: 0 auto;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.black-bg {
+    background-color: #000000;
+}
+
 /* Font + Text Styles */
 
 .big-shoulders {
@@ -54,5 +67,11 @@ img {
 
 .uppercase {
     text-transform: uppercase;
+}
+
+
+/* Header */
+.space {
+    margin: .5em 0;
 }
 
