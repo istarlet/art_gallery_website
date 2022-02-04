@@ -118,3 +118,10 @@ img {
     color: #ffffff;
 }
 
+article:hover #Arrow {
+    background-color: #000000;
+}
+
+article:hover #Location {
+    background-color: #d5966c;
+}
