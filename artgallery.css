@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
 
+
 *,
 *::before,
 *::after {
@@ -15,6 +16,11 @@ img {
 .container {
     width: 92%;
     margin: 0 auto;
+}
+
+/* Site Colors */
+.gold-bg {
+    background-color: #d5966c;
 }
 
 .white {
@@ -60,6 +66,10 @@ img {
     line-height: 32px;
 }
 
+.fs-20 {
+    font-size: 20px;
+}
+
 .fs-18 {
     font-size: 18px;
     line-height: 28px;
@@ -71,7 +81,40 @@ img {
 
 
 /* Header */
+
 .space {
     margin: .5em 0;
+}
+
+/* Button */
+
+.btn__grid {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-areas:
+        "Location Location Arrow";
+}
+
+#Location {
+    grid-area: Location;
+}
+
+#Arrow {
+    grid-area: Arrow;
+}
+
+.btn {
+    padding: 2em;
+}
+
+.btn-location {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+.btn-arrow {
+    background-color: #d5966c;
+    color: #ffffff;
 }
 
