@@ -90,9 +90,10 @@ img {
 
 .btn {
     display: inline-flex;
+    letter-spacing: 2.5px;
   }
   
-  .btn-hover {
+  .btn-location {
     background-color: #000000;
     color: #ffffff;
     text-align: center;
@@ -100,17 +101,17 @@ img {
   }
   
   .btn-arrow {
-    background-color: purple;
+    background-color: rgb(213, 150, 108);
     color: #ffffff;
     padding: 1em;
   }
   
   div:hover .btn-arrow {
-    background-color: #000000;
+    background-color: rgb(21, 21, 21);
     cursor: pointer;
   }
   
-  div:hover .btn-hover {
-    background-color: purple;
+  div:hover .btn-location {
+    background-color: rgb(213, 150, 108);
     cursor: pointer;
   }
