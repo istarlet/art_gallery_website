@@ -20,15 +20,15 @@ img {
 
 /* Site Colors */
 .gold-bg {
-    background-color: #d5966c;
+    background-color: rgb(213, 150, 108);
 }
 
 .white {
     color: #ffffff;
 }
 
-.black-bg {
-    background-color: #000000;
+.blackish-bg {
+    background-color: rgb(21, 21, 21);
 }
 
 /* Font + Text Styles */
@@ -53,7 +53,7 @@ img {
 
 .fs-60 {
     font-size: 60px;
-    line-height: 50px;
+    line-height: 55px;
 }
 
 .fs-36 {
@@ -91,19 +91,20 @@ img {
 .btn {
     display: inline-flex;
     letter-spacing: 2.5px;
+    margin: 2em 0;
   }
   
   .btn-location {
     background-color: #000000;
     color: #ffffff;
     text-align: center;
-    padding: 1em;
+    padding: 1.25em;
   }
   
   .btn-arrow {
     background-color: rgb(213, 150, 108);
     color: #ffffff;
-    padding: 1em;
+    padding: 1.25em;
   }
   
   div:hover .btn-arrow {
