@@ -88,40 +88,29 @@ img {
 
 /* Button */
 
-.btn__grid {
-    display: grid;
-    grid-template-columns: 2fr;
-    grid-template-areas:
-        "Location Location Arrow";
-}
-
-#Location {
-    grid-area: Location;
-}
-
-#Arrow {
-    grid-area: Arrow;
-}
-
 .btn {
-    padding: 2em;
-}
-
-.btn-location {
+    display: inline-flex;
+  }
+  
+  .btn-hover {
     background-color: #000000;
     color: #ffffff;
     text-align: center;
-}
-
-.btn-arrow {
-    background-color: #d5966c;
+    padding: 1em;
+  }
+  
+  .btn-arrow {
+    background-color: purple;
     color: #ffffff;
-}
-
-article:hover #Arrow {
+    padding: 1em;
+  }
+  
+  div:hover .btn-arrow {
     background-color: #000000;
-}
-
-article:hover #Location {
-    background-color: #d5966c;
-}
+    cursor: pointer;
+  }
+  
+  div:hover .btn-hover {
+    background-color: purple;
+    cursor: pointer;
+  }
